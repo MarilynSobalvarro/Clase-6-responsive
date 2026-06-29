@@ -181,13 +181,11 @@ p.small {
 /* BROWSE RANGE */
 #browse-range-header {
   text-align: center;
+  margin-bottom: 88px;
 }
 #browse-range-header img {
   float: left;
   width: 32%;
-}
-#browse-range-header {
-  margin-bottom: 88px;
 }
 
 .browse-range-gallery div + div {
@@ -349,6 +347,32 @@ input[type=submit] {
   .beauty-space-img {
     width: 100%;
     float: none;
+  }
+  #browse-range-header {
+    margin-bottom: 44px;
+  }
+  .browse-range-gallery div + div {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .browse-range-gallery > div {
+    width: 50%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  #works-header {
+    margin-bottom: 44px;
+  }
+  .works-gallery div + div {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .works-gallery > div {
+    width: 50%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
   }
 }
 @media only screen and (max-width: 767px) {

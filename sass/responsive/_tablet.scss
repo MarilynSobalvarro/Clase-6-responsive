@@ -65,4 +65,40 @@
         width: 100%;
         float: none;
     }
+
+    // BROWSE RANGE
+    
+    #browse-range-header {
+        margin-bottom: 44px;
+    }
+
+    .browse-range-gallery div + div {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .browse-range-gallery > div{
+        width: 50%;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+
+    // WORKS 
+    #works-header {
+        margin-bottom: 44px;
+    }
+
+    .works-gallery div + div {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .works-gallery > div {
+        width: 50%;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+
 }
