@@ -374,6 +374,33 @@ input[type=submit] {
     margin-left: auto !important;
     margin-right: auto;
   }
+  .footer-content {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .footer-content h3 {
+    margin-bottom: 20px;
+  }
+  .footer-img {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .footer-img img {
+    width: 49%;
+    float: left;
+    margin-bottom: 2%;
+  }
+  .footer-img img + img {
+    margin-left: 0;
+  }
+  .footer-img img:first-child {
+    margin-right: 2%;
+  }
+  .footer-img img:last-child {
+    margin-left: 2%;
+  }
 }
 @media only screen and (max-width: 767px) {
   body {
