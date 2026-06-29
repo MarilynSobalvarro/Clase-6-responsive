@@ -29,7 +29,7 @@ p.small {
   font-size: 16px;
 }
 
-/* HELPER */
+/* HELPERS */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -93,6 +93,10 @@ p.small {
 
 #logo {
   float: left;
+}
+
+#menu-link {
+  display: none;
 }
 
 /* NEW COLLECTION */
@@ -297,6 +301,24 @@ input[type=submit] {
 }
 .footer-img img + img {
   margin-left: 1.6%;
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    border-top: 10px solid blue;
+  }
+  .nav {
+    display: none;
+  }
+  #menu-link {
+    display: block;
+    float: right;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    border-top: 10px solid orangered;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

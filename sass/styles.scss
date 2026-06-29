@@ -2,12 +2,16 @@
 @import "mixins";
 @import "estilos-generales";
 @import "helpers";
-@import "header";
-@import "new-collection";
-@import "features";
-@import "inspiration";
-@import "beauty-space";
-@import "browse-range";
-@import "works";
-@import "mail";
-@import "footer";
+
+@import "partials/header";
+@import "partials/new-collection";
+@import "partials/features";
+@import "partials/inspiration";
+@import "partials/beauty-space";
+@import "partials/browse-range";
+@import "partials/works";
+@import "partials/mail";
+@import "partials/footer";
+
+@import "responsive/tablet";
+@import "responsive/mobile";

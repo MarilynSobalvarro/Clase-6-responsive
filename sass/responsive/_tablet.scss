@@ -1,0 +1,17 @@
+// Tablet
+@media only screen and (max-width: $tablet-breakpoint) {
+    body {
+        border-top: 10px solid blue;
+    }
+    
+    // HEADER
+    
+    .nav {
+        display: none;
+    }
+    
+    #menu-link {
+        display: block;
+        float: right;
+    }
+}
