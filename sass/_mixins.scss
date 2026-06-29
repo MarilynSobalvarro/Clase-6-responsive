@@ -1,0 +1,33 @@
+// MIXIN - BOTONES
+@mixin button-base {
+  background-color: $btn-color;
+  color: $white;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: inline-block;
+}
+
+// MIXIN - HEADER TEXT ALIGN
+@mixin section-header {
+  text-align: center;
+
+  img {
+    float: left;
+    width: 32%;
+  }
+}
+
+@mixin gallery-item {
+    width: 32.33%;
+    float: left;
+    text-align: center;
+  
+    img {
+      width: 100%; // Para que las imagenes no se superpongan
+    }
+}

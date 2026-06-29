@@ -1,0 +1,44 @@
+/* FOOTER */
+
+.footer-bg {
+  background-color: #03344F;
+  padding: 40px 0;
+
+  p,
+  h3 {
+    color: $white;
+  }
+}
+
+.footer-content {
+  // parte / total x 100
+  width: 33.33%; // 400px
+  float: left;
+
+  h3:first-child,
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.footer-img {
+  // parte / total x 100
+  width: 65%; // 780px
+  float: left;
+
+  h3 {
+    margin-bottom: 30px;
+  }
+
+  img {
+    width: 23.8%;
+    float: left;
+  }
+
+  img {
+    & + img {
+      // parte / total x 100
+      margin-left: 1.6%; // 20px
+    }
+  }
+}

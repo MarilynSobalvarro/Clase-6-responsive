@@ -1,0 +1,28 @@
+/* BEAUTY SPACE */
+#beauty-space-bg {
+  background-color: $light-bg;
+  padding: 60px;
+
+  /* text-align: center; */
+}
+
+.beauty-space-content {
+  // parte / total(container) x 100
+  width: 45%;
+  float: left;
+  margin-top: 265px;
+  margin-right: 5%;
+
+  p {
+    margin-bottom: 35px;
+  }
+}
+
+.beauty-space-img {
+  width: 50%;
+  float: right;
+  
+  img {
+    width: 100%;
+  }
+}

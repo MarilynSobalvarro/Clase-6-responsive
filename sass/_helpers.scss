@@ -1,0 +1,33 @@
+/* HELPER */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  @include button-base;
+
+  padding: 24px 10px;
+}
+
+.btn-big {
+  @include button-base;
+
+  padding: 24px 57px;
+}
+
+.inspiration-wrapper,
+.browse-range-wrapper {
+  margin: 60px 0;
+}

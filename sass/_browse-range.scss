@@ -1,0 +1,19 @@
+/* BROWSE RANGE */
+
+#browse-range-header {
+  @include section-header;
+  margin-bottom: 88px;
+}
+
+.browse-range-gallery div + div {
+  // 20 / 1200 * 100 = 1.6
+  margin-left: 1.5%;
+}
+
+.browse-range-gallery > div{
+  @include gallery-item;
+}
+
+.browse-range-gallery img {
+  margin-bottom: 30px;
+}

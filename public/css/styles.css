@@ -1,0 +1,302 @@
+/* ESTILOS GENERALES EN ETIQUETAS*/
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: #333333;
+  font-size: 32px;
+  margin: 0; /*reset*/
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333333;
+  font-size: 24px;
+  margin: 0; /*reset*/
+}
+
+p {
+  color: #333333;
+  font-size: 20px;
+  line-height: 39px; /*Nueva propiedad para definir largo de texto*/
+  margin: 0; /*reset*/
+}
+
+p.small {
+  color: #666666;
+  font-size: 16px;
+}
+
+/* HELPER */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  background-color: #054C73;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 24px 10px;
+}
+
+.btn-big {
+  background-color: #054C73;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding: 24px 57px;
+}
+
+.inspiration-wrapper,
+.browse-range-wrapper {
+  margin: 60px 0;
+}
+
+/* HEADER */
+.header {
+  margin: 40px 0;
+}
+
+.nav {
+  float: right;
+}
+.nav a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav a + a {
+  margin-left: 73px;
+}
+
+#logo {
+  float: left;
+}
+
+/* NEW COLLECTION */
+.new-collection img {
+  width: 100%;
+  /* display: block; */
+}
+
+/* FEATURES */
+.feature-bg {
+  padding: 40px 0; /*Si se usara margin, el background color no se aplica al margin y por eso es mejor usar padding*/
+  background-color: #F2F5FF;
+}
+
+.feature-item {
+  width: 33.33%;
+  float: left;
+}
+
+.feature-item-img,
+.feature-item-content {
+  float: left;
+}
+
+.feature-item-content {
+  margin-left: 27px;
+}
+.feature-item-content h3 {
+  margin-bottom: 6px;
+}
+
+/* INPIRATION */
+#inspiration-header {
+  text-align: center;
+}
+#inspiration-header img {
+  float: left;
+  width: 32%;
+}
+
+.inspiration-gallery {
+  text-align: center;
+}
+.inspiration-gallery img {
+  float: left;
+  width: 32%;
+}
+
+.inspiration-gallery img + img {
+  margin-left: 2%;
+}
+
+#inspiration-header {
+  margin-bottom: 88px;
+}
+
+/* BEAUTY SPACE */
+#beauty-space-bg {
+  background-color: #F2F5FF;
+  padding: 60px;
+  /* text-align: center; */
+}
+
+.beauty-space-content {
+  width: 45%;
+  float: left;
+  margin-top: 265px;
+  margin-right: 5%;
+}
+.beauty-space-content p {
+  margin-bottom: 35px;
+}
+
+.beauty-space-img {
+  width: 50%;
+  float: right;
+}
+.beauty-space-img img {
+  width: 100%;
+}
+
+/* BROWSE RANGE */
+#browse-range-header {
+  text-align: center;
+}
+#browse-range-header img {
+  float: left;
+  width: 32%;
+}
+#browse-range-header {
+  margin-bottom: 88px;
+}
+
+.browse-range-gallery div + div {
+  margin-left: 1.5%;
+}
+
+.browse-range-gallery > div {
+  width: 32.33%;
+  float: left;
+  text-align: center;
+}
+.browse-range-gallery > div img {
+  width: 100%;
+}
+
+.browse-range-gallery img {
+  margin-bottom: 30px;
+}
+
+/* WORKS */
+.works-wrapper {
+  border-top: 1px solid #D7D6D6;
+  padding: 60px 0; /*Se usa padding en este caso para evitar un margin collapse*/
+}
+
+#works-header {
+  text-align: center;
+}
+#works-header img {
+  float: left;
+  width: 32%;
+}
+#works-header {
+  margin-bottom: 88px;
+}
+
+.works-gallery div + div {
+  margin-left: 1.5%;
+}
+
+.works-gallery > div {
+  width: 32.33%;
+  float: left;
+  text-align: center;
+}
+.works-gallery > div img {
+  width: 100%;
+}
+
+.works-gallery img {
+  margin-bottom: 30px;
+}
+
+/* MAIL */
+.mail-bg {
+  background-color: #F2F5FF;
+  padding: 70px;
+  text-align: center;
+}
+
+/* MAIL FORM */
+form {
+  margin-top: 50px;
+}
+
+input[type=email] {
+  height: 59px;
+  border: 1px solid #011C42;
+  width: 64%;
+  padding-left: 10px;
+  float: left;
+}
+
+input[type=submit] {
+  height: 63px;
+  border: none;
+  width: 30.8%;
+  float: left;
+  text-transform: capitalize;
+}
+
+/* FOOTER */
+.footer-bg {
+  background-color: #03344F;
+  padding: 40px 0;
+}
+.footer-bg p,
+.footer-bg h3 {
+  color: #fff;
+}
+
+.footer-content {
+  width: 33.33%;
+  float: left;
+}
+.footer-content h3:first-child,
+.footer-content p {
+  margin-bottom: 30px;
+}
+
+.footer-img {
+  width: 65%;
+  float: left;
+}
+.footer-img h3 {
+  margin-bottom: 30px;
+}
+.footer-img img {
+  width: 23.8%;
+  float: left;
+}
+.footer-img img + img {
+  margin-left: 1.6%;
+}
+
+/*# sourceMappingURL=styles.css.map */

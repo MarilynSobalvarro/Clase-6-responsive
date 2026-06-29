@@ -1,0 +1,23 @@
+/* HEADER */
+.header {
+  margin: 40px 0;
+}
+
+.nav {
+  float: right;
+
+  a {
+      color: $text-color;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+
+      & + a {
+        margin-left: 73px;
+    }
+  }
+}
+
+#logo {
+  float: left;
+}

@@ -1,0 +1,34 @@
+/* MAIL */
+
+.mail-bg {
+  background-color: $light-bg;
+  padding: 70px;
+
+  text-align: center;
+} 
+
+/* MAIL FORM */
+
+form {
+  margin-top: 50px;
+}
+
+input[type="email"] {
+  height: 59px;
+  border: 1px solid #011C42;
+
+  width: 64%; // 320px
+  padding-left: 10px;
+  float: left;
+}
+
+input[type="submit"] {
+  height: 63px;
+  border: none;
+
+  width: 30.8%; // (154px)
+  float: left;
+
+  text-transform: capitalize;
+
+}

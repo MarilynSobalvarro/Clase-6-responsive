@@ -1,0 +1,23 @@
+/* WORKS */
+
+.works-wrapper {
+  border-top: 1px solid #D7D6D6;
+  padding: 60px 0; /*Se usa padding en este caso para evitar un margin collapse*/
+}
+
+#works-header {
+  @include section-header;
+  margin-bottom: 88px;
+}
+
+.works-gallery div + div {
+  margin-left: 1.5%;
+}
+
+.works-gallery > div {
+  @include gallery-item;
+}
+
+.works-gallery img {
+  margin-bottom: 30px;
+}
