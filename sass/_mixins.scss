@@ -12,13 +12,3 @@
   display: inline-block;
 }
 
-// MIXIN - HEADER TEXT ALIGN
-@mixin gallery-item {
-    width: 32.33%;
-    float: left;
-    text-align: center;
-  
-    img {
-      width: 100%; // Para que las imagenes no se superpongan
-    }
-}

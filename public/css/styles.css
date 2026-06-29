@@ -339,6 +339,17 @@ input[type=submit] {
   .inspiration-gallery img + img {
     margin-left: 0;
   }
+  .beauty-space-content {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .beauty-space-img {
+    width: 100%;
+    float: none;
+  }
 }
 @media only screen and (max-width: 767px) {
   body {
