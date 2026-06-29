@@ -1,10 +1,20 @@
 /* INPIRATION */
 #inspiration-header {
-  @include section-header;
+  text-align: center;
+
+  img {
+    float: left;
+    width: 32%;
+  }
 }
 
 .inspiration-gallery {
-  @include section-header;
+  text-align: center;
+
+  img {
+    float: left;
+    width: 32%;
+  }
 }
 
 // parte / total x 100

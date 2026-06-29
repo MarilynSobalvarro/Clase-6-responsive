@@ -1,11 +1,10 @@
 // Tablet
-@media only screen and (max-width: $tablet-breakpoint) {
+    @media only screen and (max-width: $tablet-breakpoint) {
     body {
         border-top: 10px solid blue;
     }
 
     // HEADER
-    
     .nav {
         display: none;
     }
@@ -39,4 +38,17 @@
         width: 70%;
         margin-left: 5%;
     }
+
+    // INSPIRATION
+    .inspiration-gallery {
+        img {
+            width: 50%;
+            margin: 0 25% !important;
+        }
+    }
+
+    .inspiration-gallery img + img {
+        margin-left: 0;
+    }
+
 }

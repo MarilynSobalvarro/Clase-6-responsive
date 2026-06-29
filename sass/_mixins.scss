@@ -13,15 +13,6 @@
 }
 
 // MIXIN - HEADER TEXT ALIGN
-@mixin section-header {
-  text-align: center;
-
-  img {
-    float: left;
-    width: 32%;
-  }
-}
-
 @mixin gallery-item {
     width: 32.33%;
     float: left;

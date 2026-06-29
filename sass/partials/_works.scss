@@ -6,7 +6,13 @@
 }
 
 #works-header {
-  @include section-header;
+  text-align: center;
+
+  img {
+    float: left;
+    width: 32%;
+  }
+  
   margin-bottom: 88px;
 }
 
