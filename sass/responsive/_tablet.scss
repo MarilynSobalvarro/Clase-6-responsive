@@ -3,7 +3,7 @@
     body {
         border-top: 10px solid blue;
     }
-    
+
     // HEADER
     
     .nav {
@@ -13,5 +13,30 @@
     #menu-link {
         display: block;
         float: right;
+    }
+
+    // FEATURES
+    .feature-item {
+        width: 40%;
+        margin: 0 30%;
+    }
+
+    .feature-item + .feature-item {
+        margin-top: 25px;
+    }
+
+
+    .feature-item-img {
+        width: 25%;
+        img {
+            max-width: 70%;
+            width: 100%;
+        }
+    }
+
+
+    .feature-item-content {
+        width: 70%;
+        margin-left: 5%;
     }
 }
