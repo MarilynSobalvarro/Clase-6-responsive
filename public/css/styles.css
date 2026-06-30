@@ -1,32 +1,33 @@
 /* ESTILOS GENERALES EN ETIQUETAS*/
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
   margin: 0;
 }
 
 h2 {
   color: #333333;
-  font-size: 32px;
+  font-size: 2em;
   margin: 0; /*reset*/
   margin-bottom: 20px;
 }
 
 h3 {
   color: #333333;
-  font-size: 24px;
+  font-size: 1.5em;
   margin: 0; /*reset*/
 }
 
 p {
   color: #333333;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 39px; /*Nueva propiedad para definir largo de texto*/
   margin: 0; /*reset*/
 }
 
 p.small {
   color: #666666;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 /* HELPERS */
@@ -51,7 +52,7 @@ p.small {
 .btn {
   background-color: #054C73;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
@@ -62,7 +63,7 @@ p.small {
 .btn-big {
   background-color: #054C73;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
@@ -85,7 +86,7 @@ p.small {
 }
 .nav a {
   color: #333333;
-  font-size: 14px;
+  font-size: 0.87em;
   font-weight: 600;
   text-decoration: none;
 }
@@ -306,6 +307,7 @@ input[type=submit] {
 @media only screen and (max-width: 1023px) {
   body {
     border-top: 10px solid blue;
+    font-size: 19px;
   }
   .nav {
     display: none;

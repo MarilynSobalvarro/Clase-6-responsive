@@ -1,12 +1,13 @@
 /* ESTILOS GENERALES EN ETIQUETAS*/
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: $fontsize-default;
   margin: 0;
 }
 
 h2 {
   color: $text-color;
-  font-size: 32px;
+  font-size: 2em; // 32px / 16 = 2
 
   margin: 0; /*reset*/
   margin-bottom: 20px;
@@ -14,20 +15,20 @@ h2 {
 
 h3 {
   color: $text-color;
-  font-size: 24px;
+  font-size: 1.5em; // 24px
 
-margin: 0; /*reset*/
+  margin: 0; /*reset*/
 }
 
 p {
   color: $text-color;
-  font-size: 20px;
-    line-height: 39px; /*Nueva propiedad para definir largo de texto*/
+  font-size: 1.25em; // 20px
+  line-height: 39px; /*Nueva propiedad para definir largo de texto*/
 
   margin: 0; /*reset*/
 }
 
 p.small {
   color: #666666;
-  font-size: 16px;
+  font-size: 1em; // 16px
 }
