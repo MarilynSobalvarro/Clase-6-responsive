@@ -3,4 +3,64 @@
     body {
         border-top: 10px solid orangered;
     }
+
+    // FEATURE
+    .feature-item {
+        width: 80%;
+        margin: 10%;
+    }
+
+    // INSPIRATION
+    #inspiration-header {
+    margin-bottom: 20px;
+    }
+
+    .inspiration-gallery {
+        img {
+            width: 100%;
+            margin: 0 !important;
+        }
+    }
+
+    // BEAUTY SPACE
+    .beauty-space-img {
+        width: 100%;
+    }
+
+    
+    // BROWSE RANGE
+    .browse-range-gallery > div{
+        width: 100%;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+
+
+    // WORKS 
+    .works-gallery > div {
+        width: 100%;
+        float: none;
+        margin-left: auto !important;
+        margin-right: auto;
+    }
+
+    // FOOTER 
+    .footer-img {
+        img {
+            width: 100%;
+
+        & + img {
+            margin-left: 0;
+            }
+
+        &:first-child {
+            margin-right: 0%;
+            }
+
+        &:last-child {
+            margin-left: 0%;
+            }
+        }
+    }
 }

@@ -33,11 +33,13 @@ p.small {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-small {
   max-width: 500px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .clearfix::after {
@@ -345,8 +347,9 @@ input[type=submit] {
     text-align: center;
   }
   .beauty-space-img {
-    width: 100%;
+    width: 50%;
     float: none;
+    margin: 0 auto;
   }
   #browse-range-header {
     margin-bottom: 44px;
@@ -405,6 +408,44 @@ input[type=submit] {
 @media only screen and (max-width: 767px) {
   body {
     border-top: 10px solid orangered;
+  }
+  .feature-item {
+    width: 80%;
+    margin: 10%;
+  }
+  #inspiration-header {
+    margin-bottom: 20px;
+  }
+  .inspiration-gallery img {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .beauty-space-img {
+    width: 100%;
+  }
+  .browse-range-gallery > div {
+    width: 100%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  .works-gallery > div {
+    width: 100%;
+    float: none;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  .footer-img img {
+    width: 100%;
+  }
+  .footer-img img + img {
+    margin-left: 0;
+  }
+  .footer-img img:first-child {
+    margin-right: 0%;
+  }
+  .footer-img img:last-child {
+    margin-left: 0%;
   }
 }
 
